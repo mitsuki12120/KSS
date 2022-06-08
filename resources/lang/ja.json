@@ -1,0 +1,19 @@
+{
+    "Log in": "ログイン",
+    "Log out": "ログアウト",
+    "Password": "パスワード",
+    "Email": "メールアドレス",
+    "Forgot your password?": "パスワードをお忘れですか？",
+    "Remember me": "パスワードを保存する",
+    "Name": "名前",
+    "Confirm Password": "パスワード再入力",
+    "REGISTER": "登録",
+    "Already registered?": "すでに登録していますか？",
+    "kana":"フリガナ",
+    "address_num":"郵便番号",
+    "prefectures":"都道府県",
+    "address1":"市区町村,番地",
+    "address2":"建物名,部屋番号",
+    "Whoops! Something went wrong.":"以下を確認してください。",
+    "Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.": "パスワードをお忘れですか？受信可能なメールアドレスを入力してください。パスワード再設定リンクを送信いたします。"
+}

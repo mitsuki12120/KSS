@@ -1,0 +1,406 @@
+.cart_button{
+    /* From uiverse.io */
+    padding: 1.3em 3em;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.cart_button:hover {
+    background-color: rgb(129 140 248);
+    box-shadow: 0px 15px 20px #9181f8;
+    color: #fff;
+    transform: translateY(-7px);
+    opacity: 0.8;
+}
+
+.cart_button:active {
+    transform: translateY(-1px);
+}
+
+/* From uiverse.io by @barisdogansutcu */
+.add_button {
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: all .5s ease;
+}
+
+.add_button:hover {
+    letter-spacing: 3px;
+    background-color: rgb(129 140 248);
+    color: hsl(0, 0%, 100%);
+    box-shadow: 0px 15px 20px #9181f8;
+    opacity: 0.8;
+}
+
+.add_button:active {
+    letter-spacing: 3px;
+    background-color: rgb(129 140 248);
+
+    color: hsl(0, 0%, 100%);
+    box-shadow: 0px 15px 20px #9181f8;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+.main_box h1{
+    font-size:7em;
+    text-align:center;
+    line-height:0.95em;
+    font-weight:bold;
+    color: #FFF;
+    text-shadow: 
+        0 0 0.05em #9181f8,
+        0 0 0.10em #9181f8,
+        0 0 0.15em #9181f8,
+        0 0 0.30em #9181f8;
+    filter: saturate(80%);
+}
+
+.text_box{
+    text-align:center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.main_box{
+    margin-top: 150px;
+}
+
+.pay_button{
+    margin-left: 820px;
+    margin-top:50px;
+}
+
+
+/* From uiverse.io by @Yaseen549 */
+.pay_button {
+    color: #9181f8;
+    border: 2px solid #9181f8;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: transparent;
+}
+
+.pay_button:hover {
+    box-shadow: 2px 2px 15px #9181f8 ;
+}
+
+.pay_button:active {
+    box-shadow: 2px 2px 20px #9181f8 ;
+}
+
+.cart_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 38px;
+    border-radius: 16px;
+    border: 1px solid transparent;
+    color: #FFFFFF;
+    background-color: rgb(129 140 248);
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: all 0.15s linear;
+    margin-left: 140px;
+}
+
+.back_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 38px;
+    border-radius: 16px;
+    border: 1px solid transparent;
+    color: #FFFFFF;
+    background-color: rgb(129 140 248);
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: all 0.15s linear;
+}
+
+.button_box{
+    display:flex;
+    margin-left: 430px;
+}
+
+
+.edit_box{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 260px;
+    width: 70%;
+    height: 1050px;
+    padding-top: 50px;
+    background-color: white;
+}
+
+.edit_box h1{
+    padding-bottom: 50px;
+    font-size:20px
+}
+
+
+/* From uiverse.io by @mobinkakei */
+.inp {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    max-width: 190px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.inp .label {
+    position: absolute;
+    top: -9px;
+    left: 12px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    transform-origin: 0 0;
+    transform: translate3d(0, 0, 0);
+    transition: all 0.2s ease;
+    pointer-events: none;
+}
+
+.inp .focus-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.05);
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.inp input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    border: 0;
+    font-family: inherit;
+    padding: 16px 12px 0 12px;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 400;
+    background: rgba(0, 0, 0, 0.02);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+    color: #000;
+    transition: all 0.15s ease;
+}
+
+.inp input:hover {
+    background: rgba(0, 0, 0, 0.04);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.inp input:not(:-moz-placeholder-shown) + .label {
+    color: rgba(0, 0, 0, 0.5);
+    transform: translate3d(0, -12px, 0) scale(0.75);
+}
+
+.inp input:not(:-ms-input-placeholder) + .label {
+    color: rgba(0, 0, 0, 0.5);
+    transform: translate3d(0, -12px, 0) scale(0.75);
+}
+
+.inp input:not(:placeholder-shown) + .label {
+    color: rgba(0, 0, 0, 0.5);
+    transform: translate3d(0, -12px, 0) scale(0.75);
+}
+
+.inp input:focus {
+    background: rgba(0, 0, 0, 0.05);
+    outline: none;
+    box-shadow: inset 0 -2px 0 rgb(129 140 248);
+}
+
+.inp input:focus + .label {
+    color: rgb(129 140 248);
+    transform: translate3d(0, -12px, 0) scale(0.75);
+}
+
+.inp input:focus + .label + .focus-bg {
+    transform: scaleX(1);
+    transition: all 0.1s ease;
+}
+
+#inp{
+    margin-bottom: 60px;
+    width: 800px;
+}
+
+/* From uiverse.io by @e-coders */
+.update,.myPage_button {
+    appearance: none;
+    background-color: transparent;
+    border: 0.125em solid rgb(129 140 248);
+    border-radius: 0.9375em;
+    box-sizing: border-box;
+    color: rgb(129 140 248);
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 3.75em;
+    min-width: 0;
+    outline: none;
+    padding: 1em 2.3em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    
+}
+
+.update:disabled,.myPage_button:disabled {
+    pointer-events: none;
+}
+
+.update:active,.myPage_button:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.edit_back {
+    appearance: none;
+    background-color: transparent;
+    border: 0.125em solid rgb(129 140 248);
+    border-radius: 0.9375em;
+    box-sizing: border-box;
+    color: rgb(129 140 248);
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 3.75em;
+    min-width: 0;
+    outline: none;
+    padding: 1em 2.3em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-right: 50px;
+    
+}
+
+.edit_back:disabled {
+    pointer-events: none;
+}
+
+.edit_back:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+
+.myPage_box{
+    background-color: #fff;
+    width: 60%;
+    height:1050px;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 50px;
+    font-size: 20px
+}
+
+.myPage_box h1{
+    font-size: 25px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.e_box{
+    margin-bottom: 90px;
+    display:flex;
+    margin-left: 150px;
+    width: 750px;
+    border-bottom: 2px solid  #9181f8;
+}
+
+.right{
+    margin-left:50px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.dd{
+    padding-bottom: 50px;
+}
+
+/* From uiverse.io by @alexruix */
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 50px;
+  }
+  
+  .input {
+    min-height: 50px;
+    max-width: 300px;
+    padding: 0 1rem;
+    color: black;
+    font-size: 15px;
+    border: 1px solid #9181f8;
+    border-radius: 6px 0 0 6px;
+    background-color: transparent;
+  }
+  
+  .button--submit {
+    min-height: 50px;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: #9181f8;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+  }
+  
+  .button--submit:hover {
+    background-color: rgb(129 140 248);
+  }
+  
+  .input:focus, .input:focus-visible {
+    border-color: rgb(129 140 248);
+    outline: none;
+  }
+  
+
+
+
+
